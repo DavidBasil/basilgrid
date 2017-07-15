@@ -1,7 +1,7 @@
 /* GRID */
 /* ------------------ */
-/* container */
 
+/* container */
 .container {
 	width: 100%;
 	max-width: 960px;
@@ -17,3 +17,62 @@
 	box-sizing: border-box;
 }
 
+.one-col {
+	width: 4.666%;
+}
+
+.two-col {
+	width: 13.333%;
+}
+
+.three-col {
+	width: 22%;
+}
+
+.four-col {
+	width: 30.666;
+}
+
+.five-col {
+	width: 39.333;
+}
+
+.six-col {
+	width: 48%;
+}
+
+.seven-col {
+	width: 56.666;
+}
+
+.eight-col {
+	width: 65.333;
+}
+
+.nine-col {
+	width: 74.0%;
+}
+
+.ten-col {
+	width: 82.666%;
+}
+
+.eleven-col {
+	width: 91.333%;
+}
+
+.twelve-col {
+	width: 100%;
+}
+
+.one-third-col {
+	width: 30.666%;
+}
+
+.two-third-col {
+	width: 65.333%;
+}
+
+.half-col {
+	width: 50%;
+}
