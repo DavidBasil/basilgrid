@@ -9,62 +9,57 @@
 /* container */
 .container {
 	width: 100%;
-	max-width: 960px;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 30px;
 }
 
 /* columns */
-.col {
-	width: 100%;
-	float: left;
-}
-
-.one-col {
+.col-one {
 	width: 4.666%;
 }
 
-.two-col {
+.col-two {
 	width: 13.333%;
 }
 
-.three-col {
+.col-three {
 	width: 22%;
 }
 
-.four-col {
-	width: 30.666;
+.col-four {
+	width: 30.666%;
 }
 
-.five-col {
-	width: 39.333;
+.col-five {
+	width: 39.333%;
 }
 
-.six-col {
+.col-six {
 	width: 48%;
 }
 
-.seven-col {
-	width: 56.666;
+.col-seven {
+	width: 56.666%;
 }
 
-.eight-col {
-	width: 65.333;
+.col-eight {
+	width: 65.333%;
 }
 
-.nine-col {
+.col-nine {
 	width: 74.0%;
 }
 
-.ten-col {
+.col-ten {
 	width: 82.666%;
 }
 
-.eleven-col {
+.col-eleven {
 	width: 91.333%;
 }
 
-.twelve-col {
+.col-twelve {
 	width: 100%;
 }
 
@@ -81,7 +76,8 @@
 }
 
 /* row clear */	
-.row:after {
+.row:after,
+.row:before {
 	content: "";
 	clear: both;
 	display: table;
