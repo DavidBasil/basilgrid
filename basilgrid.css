@@ -63,16 +63,22 @@
 	width: 100%;
 }
 
-.one-third-col {
+.col-one-third {
 	width: 30.666%;
 }
 
-.two-third-col {
+.col-two-third {
 	width: 65.333%;
 }
 
-.half-col {
+.col-half {
 	width: 50%;
+}
+
+/* column float */
+[class*="col-"]{
+	float: left;
+	padding: 15px;
 }
 
 /* row clear */	
