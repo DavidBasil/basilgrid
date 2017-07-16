@@ -1,90 +1,112 @@
 /* GRID */
 /* ------------------ */
 
-/* main styles */
 * {
-	box-sizing: border-box; 
+	box-sizing: border-box;	
 }
 
 /* container */
 .container {
 	width: 100%;
 	max-width: 1200px;
-	margin: 0 auto;
-	padding: 30px;
 }
 
-/* columns */
-.col-one {
-	width: 4.666%;
-}
-
-.col-two {
-	width: 13.333%;
-}
-
-.col-three {
-	width: 22%;
-}
-
-.col-four {
-	width: 30.666%;
-}
-
-.col-five {
-	width: 39.333%;
-}
-
-.col-six {
-	width: 48%;
-}
-
-.col-seven {
-	width: 56.666%;
-}
-
-.col-eight {
-	width: 65.333%;
-}
-
-.col-nine {
-	width: 74.0%;
-}
-
-.col-ten {
-	width: 82.666%;
-}
-
-.col-eleven {
-	width: 91.333%;
-}
-
-.col-twelve {
-	width: 100%;
-}
-
-.col-one-third {
-	width: 30.666%;
-}
-
-.col-two-third {
-	width: 65.333%;
-}
-
-.col-half {
-	width: 50%;
-}
-
-/* column float */
-[class*="col-"]{
-	float: left;
-	padding: 15px;
-}
-
-/* row clear */	
-.row:after,
-.row:before {
+/* row clear */
+.row:before,
+.row:after {
 	content: "";
 	clear: both;
 	display: table;
 }
+
+/* all column float, width and padding */
+[class*='col-']{
+	float: left;
+	min-height: 1px;
+	width: 16.66%;
+	padding: 12px;
+}
+
+/* column width */
+.col-1 {
+	width: 16.66%;
+}
+
+.col-2 {
+	width: 33.33%;
+}
+
+.col-3 {
+	width: 50%;
+}
+
+.col-4 {
+	width: 66.664%;
+}
+
+.col-5 {
+	width: 83.33%;
+}
+
+.col-6 {
+	width: 100%;
+}
+
+/* media queries at 800 */
+@media all and (max-width: 800px){
+
+	.col-1 {
+		width: 33.33%;
+	}
+
+	.col-2 {
+		width: 50%;
+	}
+
+	.col-3 {
+		width: 83.33%;
+	}
+
+	.col-4 {
+		width: 100%;
+	}
+
+	.col-5 {
+		width: 100%;
+	}
+
+	.col-6 {
+		width: 100%;
+	}
+
+}
+
+/* media queries at 650 px */ 
+@media  all and (max-width: 650px){
+
+	.col-1 {
+		width: 50%;
+	}
+
+	.col-2 {
+		width: 100%;
+	}
+
+	.col-3 {
+		width: 100%;
+	}
+
+	.col-4 {
+		width: 100%;
+	}
+	
+	.col-5 {
+		width: 100%;
+	}
+
+	.col-6 {
+		width: 100%;
+	}
+
+}
+
